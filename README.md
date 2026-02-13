@@ -100,7 +100,7 @@ I design systems that combine **smart contracts, AI agents, and real-world data*
 
 - 📌 **Live:** [ape.store](https://ape.store/)
 
-- 📌 **Repo:** [Smart Contract_v1](https://github.com/OnChainMee/evm-base-pumfun-smart-contract-v1
+- 📌 **Repo:** [Smart Contract_v1](https://github.com/OnChainMee/evm-base-pumfun-smart-contract-v1)
 
 ### **🔷 Yieldz Lending (Polygon)**
 <img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/e16d639e-3c84-4e90-ac47-889373b477b0">
