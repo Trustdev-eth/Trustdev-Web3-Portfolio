@@ -89,6 +89,15 @@ I design systems that combine **smart contracts, AI agents, and real-world data*
 
 - 📌 **Repo:** [Backend](https://github.com/OnChainMee/onchain-experiments-v1)
 
+### **🔷 Ethereum Token Launchpad**
+<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/d4c61a64-88ef-41f3-b13c-a727e37a01c3">
+
+- PumpFun Fork in Ethereum
+
+- 📌 **Live:** [digimonkz.com](https://digimonkz.com/)
+
+- 📌 **Repo:** [Smart Contract](https://github.com/OnChainMee/DigiMonkz-Staking) / [Frontend](https://github.com/OnChainMee/DigiMokz-Frontend)
+
 ### **🔷 Yieldz Lending (Polygon)**
 <img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/e16d639e-3c84-4e90-ac47-889373b477b0">
 
@@ -99,15 +108,6 @@ I design systems that combine **smart contracts, AI agents, and real-world data*
 - 📌 **Live:** [yieldzprotocol.com](https://yieldzprotocol.com/)
 
 - 📌 **Repo:** [Backend](https://github.com/OnChainMee/360-Defi-SmartContract) / [Frontend](https://github.com/OnChainMee/Yieldz-Defi-Frontend)
-
-### **🔷 DigiMonkz (NFT Staking)**
-<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/7524314b-0937-4fe6-b595-374c407077ae">
-
-- Web3 NFT staking platform, GEN111/GEN2 NFTs, artifact rewards
-
-- 📌 **Live:** [digimonkz.com](https://digimonkz.com/)
-
-- 📌 **Repo:** [Smart Contract](https://github.com/OnChainMee/DigiMonkz-Staking) / [Frontend](https://github.com/OnChainMee/DigiMokz-Frontend)
 
 ---
 
