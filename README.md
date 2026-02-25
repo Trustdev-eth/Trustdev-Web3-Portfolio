@@ -11,9 +11,11 @@ I design systems that combine **smart contracts, AI agents, and real-world data*
 <p>
 <img alt="EVM" src="https://img.shields.io/badge/-EVM-627EEA?style=flat-square&logo=ethereum&logoColor=white" />
 <img alt="Solana" src="https://img.shields.io/badge/-Solana-00FFA3?style=flat-square&logo=solana&logoColor=white" />
-<img alt="Bitcoin" src="https://img.shields.io/badge/-Bitcoin-F7931A?style=flat-square&logo=bitcoin&logoColor=white" />
+<img alt="Base" src="https://img.shields.io/badge/-Base-00A2FF?style=flat-square&logo=basechain&logoColor=white" />
+<img alt="ApeChain" src="https://img.shields.io/badge/-ApeChain-FF6F00?style=flat-square&logo=ApeChain&logoColor=white" />
 <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img alt="Solidity" src="https://img.shields.io/badge/-Solidity-363636?style=flat-square&logo=solidity&logoColor=white" />
 <img alt="Rust" src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" />
 <img alt="LangGraph" src="https://img.shields.io/badge/-LangGraph-FF4088?style=flat-square&logoColor=white" />
 <img alt="ChromaDB" src="https://img.shields.io/badge/-ChromaDB-22D3EE?style=flat-square&logoColor=white" />
@@ -78,16 +80,16 @@ I design systems that combine **smart contracts, AI agents, and real-world data*
 
 ## 💎 EVM Projects
 
-### **🔷 Onchain-Experiments_V1(EVM)**
-<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/5074e654-17ea-4331-863f-c83f2e287152">
+### **🔷 Monstro.fun(Base)**
+<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/9e37e353-1ee9-4a50-8738-c2f1864749f1">
 
-- this project is a fully on-chain, generative NFT platform where artwork, metadata, and logic are permanently generated and stored directly on the blockchain, without external servers, IPFS
+- Monstro.fun is a gamified DeFi platform built around tokenized characters, staking pools, and referral-driven yield mechanics on Base.
 
-- 100% on-chain, generative NFT system where each token's image and metadata are generated in real-time using SVG code via smart contracts 
+- My focus was on delivering the core technical architecture — ensuring smooth integration between smart contracts, backend services, and the front-end dashboard 
 
-- 📌 **Live:** [Onchain Experiments](https://www.onchainexperiments.xyz/)
+- 📌 **Live:** [Monstoro](https://monstro.fun/)
 
-- 📌 **Repo:** [Backend](https://github.com/OnChainMee/onchain-experiments-v1)
+- 📌 **Repo:** [Smart Contract](https://github.com/OnChainMee/monstrodefi-smart-contract)
 
 ### **🔷 Ape Store - Base Token Launchpad**
 <img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/d4c61a64-88ef-41f3-b13c-a727e37a01c3">
@@ -147,7 +149,7 @@ I design systems that combine **smart contracts, AI agents, and real-world data*
 
 - 📌 **Live:** [Luck.io](https://luck.io/)
 
-- 📌 **Repo:** [GitHub](https://github.com/OnChainMee/Luck.io-casino-game)
+- 📌 **Repo:** [GitHub](https://github.com/luck-io-org/Luck.io-casino-game)
 
 ### **🟢 Nutmarket (NFT Marketplace)**
 <img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/fefc7452-7810-41a8-a92d-aec682b2e31f">
@@ -227,25 +229,6 @@ I design systems that combine **smart contracts, AI agents, and real-world data*
 - 📌 **Live:** [arcusbtc.com](https://arcusbtc.com/)
 
 - 📌 **Repo:** [Backend](https://github.com/ArcusBTC/arcus-app) / [Frontend](https://github.com/ArcusBTC/ArcusLab-FE)
-
-### **🟡 AletheiasAgora (Bitcoin DApp)**
-
-- Ordinals minting, raffles, recursion, non-custodial staking
-
-- MultiSig enhanced security
-
-- 📌 **Repo:** [Backend](https://github.com/OnChainMee/COVault-App/tree/master/multisig-wallet)
-
-### **🟡 BMP BRC20 (BRC20 Airdrop)**
-<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/caee3d58-4038-4463-aeb8-8bbc5dc4c365">
-
-- Airdrop platform for BRC20 tokens (Taproot)
-
-- Supports Unisat, Leader, XVerse wallets
-
-- 📌 **Live:** [bmpbrc.com](https://bmpbrc.com/)
-
-- 📌 **Repo:** [Backend](https://github.com/OnChainMee/BRC20-withdraw-Backend) / [Frontend](https://github.com/OnChainMee/BRC20-withdraw-Frontend)
 
 ---
 
