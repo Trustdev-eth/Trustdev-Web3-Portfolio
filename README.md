@@ -91,6 +91,15 @@ I design systems that combine **smart contracts, AI agents, and real-world data*
 
 - 📌 **Repo:** [Smart Contract](https://github.com/OnChainMee/monstrodefi-smart-contract)
 
+### **🔷 360-lore Leaderboard(ApeChain)**
+<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/c23bce8a-3826-4ffc-8b27-fa852ff46459">
+
+- Designed 369 lore leaderboard and built webpage with React Vite
+
+- 📌 **Live:** [360-lore](https://369-lore-leaderboard.vercel.app/)
+
+- 📌 **Repo:** [Git](https://github.com/OnChainMee/369-lore-leaderboard)
+
 ### **🔷 Ape Store - Base Token Launchpad**
 <img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/d4c61a64-88ef-41f3-b13c-a727e37a01c3">
 
@@ -229,21 +238,6 @@ I design systems that combine **smart contracts, AI agents, and real-world data*
 - 📌 **Live:** [arcusbtc.com](https://arcusbtc.com/)
 
 - 📌 **Repo:** [Backend](https://github.com/ArcusBTC/arcus-app) / [Frontend](https://github.com/ArcusBTC/ArcusLab-FE)
-
----
-
-## 🎮 Gaming & NFT Projects
-
-### **🟠 Playzelo (Multi-Chain GameFi)**
-<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/5509f81c-9161-45c7-9196-2abaa4f43f4d">
-
-- Games: Scissors, Turtlerace, Mines, Dice, Plinko, Slot, Crash
-
-- Multi-chain: Bitcoin, Ethereum, Binance, Solana
-
-- 📌 **Live:** [playzelo.xyz](https://playzelo.xyz/)
-
-- 📌 **Repos:** [Backend](https://github.com/OnChainMee/scissors/tree/master/backend) / [Frontend](https://github.com/OnChainMee/scissors/tree/master/frontend) / [Admin](https://github.com/OnChainMee/scissors/tree/master/admin)
 
 ---
 
