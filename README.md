@@ -113,17 +113,6 @@ I design systems that combine **smart contracts, AI agents, and real-world data*
 
 - 📌 **Repo:** [Smart Contract_v1](https://github.com/OnChainMee/evm-base-pumfun-smart-contract-v1)
 
-### **🔷 Yieldz Lending (Polygon)**
-<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/e16d639e-3c84-4e90-ac47-889373b477b0">
-
-- Multi-layered DeFi lending with real-yield mechanisms
-
-- Solidity 
-
-- 📌 **Live:** [yieldzprotocol.com](https://yieldzprotocol.com/)
-
-- 📌 **Repo:** [Backend](https://github.com/OnChainMee/360-Defi-SmartContract) / [Frontend](https://github.com/OnChainMee/Yieldz-Defi-Frontend)
-
 ---
 
 ## 💜 Solana Projects
