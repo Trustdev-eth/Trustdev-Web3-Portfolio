@@ -22,23 +22,6 @@
 
 ---
 
-## 📊 AI + Blockchain Architecture: Smart Contracts, AI Agents, Decentralized Systems
-
-```
-+-----------------+      +-----------------------+      +-------------------------+
-| Real-World Data | ---> | AI Agent (LangGraph)  | ---> | Off-chain DB / Metadata |
-| (Strava, APIs)  |      | Personalized Coaching |      | SQLite / OpenSea JSON   |
-+-----------------+      +-----------------------+      +-------------------------+
-         |                                                       |
-         |-------------------------------------------------------|
-                          Real-time updates & recommendations
-```
-* **LangGraph AI Agents** → Deterministic workflows for NFT progression, DeFi automation, and blockchain AI integrations.
-* **ChromaDB Triple Vector Stores** → Action history, training analysis, knowledge base for efficient AI-blockchain queries.
-* **Off-Chain Storage + OpenSea Metadata** → Gas-efficient NFT upgrades in EVM and Solana ecosystems.
-* **Caching & Pooling** → <10ms response times for thousands of entities in high-throughput dApps.
----
-
 ## 🤖 Highlight Projects: AI-Powered Blockchain Solutions
 
 ### **🔷 Fighters Unbound (Shape EVM L2) - AI NFT Evolution Platform**
@@ -52,16 +35,27 @@
 
 📌 **Live:** [unbound.games](https://www.unbound.games/)
 
----
+### **🔷 Clutch Whitelist System(Ethereum, Apechain)**
 
-### **🔷 Nyx Cipher (EVM & Solana) - AI Blockchain Trading Agent**
-<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/377f8819-d786-46e0-889b-6470457d0854">
+<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/2ae5e568-06c6-4b6c-9ef2-99a98cbe971b">
 
-- Advanced AI agent for blockchain trading and social intelligence, optimizing decisions through smart contract integrations across EVM and Solana chains.  
-- Key Features: Real-time data processing, automated trading strategies, social sentiment analysis; reduces research time by 90% and boosts productivity 10x in DeFi environments.  
-- Technologies: AI models integrated with Solidity/Rust smart contracts for secure, decentralized execution.
+- **Web3 whitelist tool** that ranks wallets **0–10** from on-chain NFT behavior and exports **filterable holder CSVs** on **Ethereum** and **ApeChain**.
+- **Features:** pay-per **rank check** (**$K9**); bulk **whitelist** with OpenSea collection pick, live **streamed** progress, **CSV** export; **NFT gate** or **100 $K9** for bulk; multi-chain toggle.
+- **Stack:** **Next.js 15**, **React**, **Wagmi/viem**, **Alchemy** + **OpenSea** (server-side), **TypeScript**.
+- **Ops:** streaming responses, server-only API keys, caps/rate limits to keep routes stable.
 
-📌 **Live:** [nyxcipher.ai](https://nyxcipher.ai/)
+📌 **Live:** [whitelist.clutch.market](https://whitelist.clutch.market/)
+
+### **🔷 Anvil NFT Launchpad (Ethereum, Base, Apechain)**
+
+<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/4baa4dfd-43c1-4e26-b255-b1be03581a05">
+
+- NFT Launchpad for scheduled drops on Ethereum, Base, ApeChain, and Sepolia — deploy LaunchpadFactory clones, register collections in an API, and run on-chain admin (phases, royalties, withdraw, metadata) without a block explorer.
+- Features: factory deploy from the wallet; API registry + sync-from-chain; public / allowlist mint pages; Merkle helper; optional Launch with Anvil (Clutch.AMM) on Ethereum and ApeChain; creator dashboard with streamed-style UX and drift warnings when DB ≠ chain.
+- Stack: Next.js 15, React, Thirdweb + viem, Express + TypeScript backend, Supabase; Foundry (Solidity 0.8.24) for ScheduledDropNFT and factory contracts; Zod validation and viem reads server-side.
+- Ops: server-only secrets (API_SECRET, Supabase service role, optional relayer key); rate limits on /api/v1; CORS and caps documented for production hardening; internal docs (docs/LAUNCHPAD.md, smart-contract risk register) for scope and security posture.
+
+📌 **Live:** [launchpad.clutch.market](https://launchpad.clutch.market/)
 
 ---
 
@@ -96,6 +90,25 @@
 - Technologies: Solidity smart contracts, Base chain optimizations for low fees.
 
 📌 **Live:** [ape.store](https://ape.store/)
+
+### **🔷 $JMY Token Airdrop for Dead Collection Holder (Apechain)**
+
+<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/bcfd6dcf-013d-41e8-92a7-a4a1cf3ffad7">
+
+- Features: Privy, Glyph, wagmi; NFTfi — swap FIFO, snipe, sell, borrow/repay, stake/unstake/claim, explorers; airdrop — eligibility, prepare/claim/confirm, campaigns; admin — scan→allocations, Merkle, dispatch; Farcaster - Frame; Anvil links; NFTfi forest UI; viem reads; server Privy verify.
+- Stack: Next.js App Router, React 19, Tailwind 4, Privy + @privy-io/wagmi, wagmi, viem, Glyph SDK, TanStack Query, Motion, mongoose, Zod where used, OpenZeppelin Merkle / merkletreejs.
+- Ops: Server secrets (Privy, RPC, admin, DB); Privy allowlist + Vercel env parity; rate limits + CORS for prod; document vaults/collection/RPC NEXT_PUBLIC_*; watch DB/registry vs chain drift.
+
+📌 **Live:** [airdrop.jmyfi.com](https://airdrop.jmyfi.com/)
+
+### **🔷 Nyx Cipher (EVM & Solana) - AI Blockchain Trading Agent**
+<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/377f8819-d786-46e0-889b-6470457d0854">
+
+- Advanced AI agent for blockchain trading and social intelligence, optimizing decisions through smart contract integrations across EVM and Solana chains.  
+- Key Features: Real-time data processing, automated trading strategies, social sentiment analysis; reduces research time by 90% and boosts productivity 10x in DeFi environments.  
+- Technologies: AI models integrated with Solidity/Rust smart contracts for secure, decentralized execution.
+
+📌 **Live:** [nyxcipher.ai](https://nyxcipher.ai/)
 
 ---
 
