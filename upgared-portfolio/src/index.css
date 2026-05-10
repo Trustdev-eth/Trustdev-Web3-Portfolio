@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --glow-acid: rgba(45, 212, 191, 0.45);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink text-zinc-100 antialiased;
+  font-family: Outfit, system-ui, sans-serif;
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+/* Keep RainbowKit / wallet controls from blowing up the mobile header */
+.nav-wallet-wrap [data-rk] {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-wallet-wrap button {
+  max-width: 100%;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media (min-width: 640px) {
+  .nav-wallet-wrap button {
+    font-size: 0.875rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+
+/* Smooth card hover: long duration + custom easing (also mirrored in Framer spring) */
+.card-sheen {
+  transition:
+    transform 0.65s var(--ease-out-expo),
+    box-shadow 0.65s var(--ease-smooth),
+    border-color 0.55s var(--ease-smooth);
+  will-change: transform;
+}
+
+.card-sheen:hover {
+  transform: translateY(-10px) scale(1.015);
+  box-shadow:
+    0 24px 50px -20px rgba(0, 0, 0, 0.65),
+    0 0 0 1px rgba(45, 212, 191, 0.25),
+    0 0 48px -12px var(--glow-acid);
+}
+
+/* Softer 3D vignette on phones so content near the notch stays readable */
+.three-bg-mask {
+  mask-image: radial-gradient(
+    ellipse 96% 88% at 50% 40%,
+    black 6%,
+    black 74%,
+    transparent 100%
+  );
+  -webkit-mask-image: radial-gradient(
+    ellipse 96% 88% at 50% 40%,
+    black 6%,
+    black 74%,
+    transparent 100%
+  );
+}
+
+@media (min-width: 768px) {
+  .three-bg-mask {
+    mask-image: radial-gradient(
+      ellipse 85% 75% at 50% 42%,
+      black 8%,
+      black 62%,
+      transparent 100%
+    );
+    -webkit-mask-image: radial-gradient(
+      ellipse 85% 75% at 50% 42%,
+      black 8%,
+      black 62%,
+      transparent 100%
+    );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
