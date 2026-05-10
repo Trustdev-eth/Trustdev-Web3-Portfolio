@@ -36,8 +36,7 @@
 - Base: `0x3Aa70d741b8E2b1AAC46E5032B5e0Cb51B284817`
 - ApeChain: `0xB2ACD3D63602370c3ADc17EE51707cFF6aB2dec7`
 - Abstract: `0xB2ACD3D63602370c3ADc17EE51707cFF6aB2dec7`
-
-<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/REPLACE-WITH-YOUR-UNVAULT-IMAGE-URL-HERE">
+<img align="right" width="350px" height="170px" src="https://github.com/user-attachments/assets/4c7a7c4-ab71-408b-b8b9-3db1bcd20501">
 
 **What I Built**:  
 Designed and shipped the **entire production cross-chain NFT bridge** using LayerZero V2 OApp. Built a custom proxy factory split into 3 implementation slices to stay under bytecode limits, OmnichainLZSender/Receiver, virtual token model with bitmap ownership, ERC-2981 royalty enforcement, configurable fees, pause/reentrancy guards, and two full bridge flows (new collection unvault + existing vault withdraw). Deployed and tested on 6 EVM chains with a complete 30/30 route matrix.
