@@ -38,14 +38,14 @@ export function Nav() {
         <a href="#" className="flex min-w-0 items-center gap-2 sm:gap-3" onClick={closeMenu}>
           <img
             src="/assets/logo.png"
-            alt="OnChainMee"
+            alt="T-rustdev"
             width={40}
             height={40}
             decoding="async"
             className="h-9 w-9 shrink-0 rounded-2xl object-cover shadow-lg shadow-acid/20 ring-1 ring-white/15 sm:h-10 sm:w-10"
           />
           <div className="min-w-0 truncate font-display text-lg font-bold tracking-tight text-white sm:text-xl">
-            OnChainMee
+            T-rustdev
           </div>
         </a>
         <nav className="hidden items-center gap-8 text-sm font-medium text-zinc-300 md:flex">

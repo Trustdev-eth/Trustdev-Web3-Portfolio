@@ -62,7 +62,7 @@ export const projects: Project[] = [
     whatIBuilt:
       'Authored bonding curve + graduation stack: TokenFactory, PumpFun math + quotes, Router/Pairs with optional referrers, pause controls, and AMM handoff. Integrated backend services for indexing and trading UX.',
     liveUrl: 'https://ape.store/',
-    repoUrl: 'https://github.com/OnChainMee/evm-base-pumfun-smart-contract-v2',
+    repoUrl: 'https://github.com/T-rustdev/evm-base-pumfun-smart-contract-v2',
   },
   {
     title: 'Monstro.fun',
@@ -123,7 +123,7 @@ export const projects: Project[] = [
     whatIBuilt:
       'Delivered casino vertical: Anchor/Rust verification games, treasury risk controls, non-custodial wallet sessions, offline rehearsal mode, and observability for $8.3M+ bankroll operations.',
     liveUrl: 'https://luck.io/',
-    repoUrl: 'https://github.com/OnChainMee/Luck.io-casino-game',
+    repoUrl: 'https://github.com/T-rustdev/Luck.io-casino-game',
   },
   {
     title: 'Nutmarket',
@@ -154,7 +154,7 @@ export const projects: Project[] = [
     whatIBuilt:
       'Migrated custodial escrow → trustless Anchor architecture with Merkle gating, self-serve launches, analytics, and 80k+ NFT footprint.',
     liveUrl: 'https://floppylabs.io',
-    repoUrl: 'https://github.com/OnChainMee/floppylabs-nft-staking',
+    repoUrl: 'https://github.com/T-rustdev/floppylabs-nft-staking',
   },
   {
     title: 'Artplex',
@@ -165,7 +165,7 @@ export const projects: Project[] = [
     whatIBuilt:
       'Turbocharged Turborepo apps: build pipelines, mint UX, and Supabase services hardened for creator bursts.',
     liveUrl: 'https://artplex.io/',
-    repoUrl: 'https://github.com/OnChainMee/artplex-nft-launchpad',
+    repoUrl: 'https://github.com/T-rustdev/artplex-nft-launchpad',
   },
   {
     title: 'Ballistic',

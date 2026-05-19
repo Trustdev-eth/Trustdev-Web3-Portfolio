@@ -23,7 +23,7 @@ const sharedChains = [mainnet, base, apeChain] as const;
  */
 export const wagmiConfig = projectId
   ? getDefaultConfig({
-      appName: 'OnChainMee Portfolio',
+      appName: 'T-rustdev Portfolio',
       projectId,
       chains: [...sharedChains],
       transports: {
@@ -35,7 +35,7 @@ export const wagmiConfig = projectId
     })
   : createConfig({
       chains: [...sharedChains],
-      connectors: [injected(), coinbaseWallet({ appName: 'OnChainMee Portfolio' })],
+      connectors: [injected(), coinbaseWallet({ appName: 'T-rustdev Portfolio' })],
       transports: {
         [mainnet.id]: http(),
         [base.id]: http(),

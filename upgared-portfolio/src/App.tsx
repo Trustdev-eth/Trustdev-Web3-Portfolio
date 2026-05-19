@@ -41,7 +41,7 @@ export default function App() {
             className="border-t border-white/10 px-4 py-8 text-center text-[11px] text-zinc-500 sm:py-10 sm:text-xs"
             style={{ paddingBottom: 'max(2rem, env(safe-area-inset-bottom))' }}
           >
-            © {new Date().getFullYear()} OnChainMee • MIT License
+            © {new Date().getFullYear()} T-rustdev • MIT License
             <SocialQuickLinks variant="footer" />
           </footer>
         </div>
