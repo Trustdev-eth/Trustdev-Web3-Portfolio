@@ -44,6 +44,7 @@ Designed and shipped the **entire production cross-chain NFT bridge** using Laye
 
 **Tech**: LayerZero V2, Solidity 0.8.24, ERC-1167 clones, OpenZeppelin, Hardhat, TypeScript.
 
+**Live**: [unvault.com](https://unvault.com/)
 ---
 
 ### **Fighters Unbound** – AI NFT Evolution Platform (Shape EVM L2)
