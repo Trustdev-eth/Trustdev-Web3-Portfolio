@@ -5,8 +5,8 @@
 🚀 Expert in shipping **production-grade AI agents + smart contracts + full-stack dApps** across Solana, EVM, and Bitcoin. I specialize in turning complex ideas into secure, scalable, revenue-generating Web3 products — 10x fast with ai coding.
 
 ### 📩 Contact
-- **Telegram**: [@Dillon](https://t.me/t_rustdev0)  
-- **Twitter**: [@Dillon](https://x.com/t_rustdev_)
+- **Telegram**: [@Dillon](https://t.me/trustdev_eth)  
+- **Twitter**: [@Dillon](https://x.com/trustdev_eth_)
 
 ---
 
