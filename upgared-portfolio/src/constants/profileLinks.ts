@@ -1,15 +1,15 @@
 /** Public profile URLs — single source for Contact, footer, nav. */
 export const profileLinks = {
   github: {
-    href: 'https://github.com/T-rustdev',
+    href: 'https://github.com/Trustdev-eth',
     label: 'GitHub',
   },
   telegram: {
-    href: 'https://t.me/t_rustdev0',
+    href: 'https://t.me/trustdev_eth',
     label: 'Telegram',
   },
   twitter: {
-    href: 'https://x.com/t_rustdev_',
+    href: 'https://x.com/trustdev_eth',
     label: 'X (Twitter)',
   },
   email: {
